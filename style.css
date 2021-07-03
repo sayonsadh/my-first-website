@@ -8,7 +8,7 @@ h1{
 .myname{
     color: rgb(15, 222, 250);
 }
-section{
+.sadh{
     display: flex;
 }
 .half-width{
@@ -32,4 +32,59 @@ section{
 .top-banner{
     background-image: url(background/top-banner.png);
     background-repeat: no-repeat;
+}
+.mithamoin{
+    width: 50%;
+}
+.mithamoin img{
+    width: 82%;
+}
+.dream{
+    padding-right: 130px;
+    text-align: justify;
+
+}
+.fblink{
+    text-decoration: none;
+    border-radius: 6%;
+    background-image: linear-gradient(salmon,blue);
+    padding: 2%;
+    color: white;
+}
+.secondbanner{
+    background-image: url(background/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.color{
+    color: orange;
+}
+.lastbanner{
+    width: 40%;
+    margin:5%;
+  
+    padding-left: 10px;
+    box-shadow: 10px 10px 10px gray;
+   
+   
+}
+.sakib{
+    background-image: url(background/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+   
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice:1; 
+}
+#full{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice:1;
+}
+footer p{
+        text-align: center;
 }
